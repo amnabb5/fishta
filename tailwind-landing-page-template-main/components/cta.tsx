@@ -28,25 +28,28 @@ export default function Cta() {
               alt="Stripes"
             />
           </div>
-          <div className="px-4 py-12 md:px-12 md:py-20">
-            <h2 className="mb-6 border-y text-3xl font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,#FB3026,transparent)1] md:mb-12 md:text-4xl">
-              Start with Fishta. Smarter aquaculture, made simple.
-            </h2>
-            <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
-              <a
-                className="btn group mb-4 w-full bg-gradient-to-t from-[#FB3026] to-[#FB3026]/80 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                href="#0"
-              >
-                <span className="relative inline-flex items-center">
-                  Start Free Trial{" "}
-                  <span className="ml-1 tracking-normal text-white/70 transition-transform group-hover:translate-x-0.5">
-                    -&gt;
-                  </span>
-                </span>
-              </a>
-            </div>
-          </div>
         </div>
+      </div>
+      <div className="relative flex flex-col items-center justify-center mt-8">
+        <div className="absolute right-[-4rem] top-1/3 -z-10 -translate-y-1/2">
+          <div className="h-64 w-64 rounded-full border-[16px] border-[#FB3026] blur-[64px]" />
+        </div>
+        <div className="absolute left-[-4rem] top-1/2 -z-10 -translate-y-1/2">
+          <div className="h-64 w-64 rounded-full border-[16px] border-[#FB3026] blur-[64px]" />
+        </div>
+        <Image
+          src="/images/mock.png"
+          alt="tv1"
+          width={600}
+          height={350}
+        />
+        <Image
+          src="/images/grp23.png"
+          alt="tv2"
+          width={400}
+          height={14}
+          className="mt-2"
+        />
       </div>
     </section>
   );
